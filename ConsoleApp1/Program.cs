@@ -91,12 +91,12 @@ namespace ConsoleApplication1
                 Console.WriteLine("Возникла ошибка при вычислениях, делить на 0 нельзя!");
             }
 
-            // x = X1;
-            // while (x < X2)
-            // {
-            //     Console.WriteLine($"x = {x:0.00},\t F = {F(a, b, c, x):0.###}"); // F => печать в консоль
-            //     x += dX; // x = x + dX;
-            // }
+            x = X1;
+            while (x < X2)
+            {
+                 Console.WriteLine($"x = {x:0.00},\t F = {F(a, b, c, x):0.###}"); // F => печать в консоль
+                 x += dX; // x = x + dX;
+            }
             
         }
     }
